@@ -3,18 +3,19 @@ public class ForEachOne {
 
 	public static void main(String[] args) {
 
-		int x[]= {10,20};
+		String cities[]= {"indore","bhopal"};
 		
 		
-		for(int tmp:x) {
-			System.out.println(tmp);
+		for(String city:cities) {
+			System.out.println(city);
 		}
 		
-		
 		/*
-		 * for(int i=0; i<5; i++) { System.out.println(x[i]); }
-		 */
-
+		int x[] = { 10, 20, 30, 40 };
+		for (int n : x) {
+			System.out.println(n);
+		}
+		*/
 	}
 
 }
